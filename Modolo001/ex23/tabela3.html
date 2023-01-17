@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <h1>Mesclagem de Células</h1>
+
+    <table>
+
+        <TR>            
+            <TD>A</TD>
+            <TD colspan="2">B</TD>
+            
+        </TR>
+
+        <TR>
+            <TD rowspan="3">D</TD>
+            <TD>E</TD>
+            <TD rowspan="2">F</TD>
+        </TR>
+
+        <TR>
+            
+            <TD>H</TD>
+            
+        </TR>
+
+        <TR>
+            
+            <TD>L</TD>
+            <TD>M</TD>
+        </TR>
+
+
+
+
+
+
+
+
+
+    </table>
+
 </body>
 </html>
