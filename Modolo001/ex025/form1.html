@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro formulário</h1>
+    <form action="cadastro.php" method="post"> <!--Cancela preenchimentos automaticos (form autocomplete="off")-->
+        <p>
+            <label for="cnome">Nome:</label> <input type="text" name="nome" id="cnome">
+        </p>
+        
+        <p>
+            <label for="csobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="csobrenome">
+        </p>
+        <p>
+            <label for="csenha">Senha:</label> <input type="password" name="senha" id="csenha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
