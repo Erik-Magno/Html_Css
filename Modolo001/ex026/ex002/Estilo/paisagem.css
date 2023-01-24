@@ -1,6 +1,7 @@
 @charset "UTF-8";
+
 /* Aparelho deitado*/
-*{
-    padding: 0px;
-    margin: 0px;
+
+body {
+    background: url(../../imagens/imagens/cev-landscape.jpg)no-repeat left bottom;
 }
