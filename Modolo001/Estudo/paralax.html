@@ -38,21 +38,28 @@
 
 
         
-        section.q1{
+        section#q1{
             background: url(../imagens/_paisagem.jpg)no-repeat left center fixed;
             
         }
-        section.q2{
+        section#q2{
             background: url(../imagens/_paisagem_1200.jpg)no-repeat fixed;
             background-size: cover;
         }
-        section.q3{
+        section#q3{
             background: url(../imagens/_universo.jpg)no-repeat fixed;
             background-size: cover;
         }
-        section.q4{
+        section#q4{
             background: url(../imagens/_universo2.jpg)no-repeat fixed;
             background-size: cover;
+        }
+        section.shadow:after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            z-index: 8;
+            background-image: linear-gradient(to bottom, rgba(0,0,0,)0, rgba(0,0,0,) 100%, #000 100%);
         }
        
         section.p1{
@@ -66,28 +73,28 @@
     </style>
 </head>
 <body>
-    <section class="q1"></section>
+    <section id="q1" class="shadow"></section>
 
     <section class="p1">
         <h1>Lorem ipsum adipisicing elit.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus eum pariatur, quo amet magni recusandae quas minus impedit, similique sapiente sint ullam officiis modi temporibus hic rem dignissimos culpa.</p>
     </section>
 
-    <section  class="q2"></section>
+    <section  id="q2" class="shadow"></section>
 
     <section class="p1">
         <h1>Lorem ipsum adipisicing elit.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus eum pariatur, quo amet magni recusandae quas minus impedit, similique sapiente sint ullam officiis modi temporibus hic rem dignissimos culpa.</p>
     </section>
     
-    <section class="q3"></section>
+    <section id="q3" class="shadow"></section>
 
     <section class="p1">
         <h1>Lorem ipsum adipisicing elit.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus eum pariatur, quo amet magni recusandae quas minus impedit, similique sapiente sint ullam officiis modi temporibus hic rem dignissimos culpa.</p>
     </section>
 
-    <section class="q4"></section>
+    <section id="q4" class="shadow"></section>
 
     <section class="p1">
         <h1>Lorem ipsum adipisicing elit.</h1>
