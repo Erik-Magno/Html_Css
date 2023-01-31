@@ -7,6 +7,7 @@
 
     section#log{
         width: 80vw;
+        height: 280px;
     }
     
     section#log > div#img{
@@ -27,7 +28,8 @@
     }
     
     section#log {
-        width: 990px;
+        width: 950px;
+        height: 500px;
     }
 
     section#log > div#img{
@@ -44,7 +46,8 @@
     }
     
     div#form > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
 
     }
 }
