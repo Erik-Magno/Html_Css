@@ -14,7 +14,7 @@ body{
         background-size: cover;
 }
 main{
-        background-color: rgba(255, 255, 255, 0.842);
+        background-color: rgba(255, 255, 255, 0.623);
         width: 400px;
         margin: auto;
         margin-top: 20px;
@@ -39,26 +39,3 @@ img#tablet{display: none;}
 img#print{display: none;}
 img#pc{display: none;}
 img#tv{display: none;}
-
-
-/* Otras Medias */
-
-@media screen and (orientatio: portrait) {
-        body{
-
-        }
-
-
-
-}
-@media screen and (orientation: landscape) {
-        body{
-            
-        }
-    
-}
-@media print {
-        body{
-
-        }
-}
